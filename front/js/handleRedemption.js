@@ -66,7 +66,7 @@ export default function (userNumber, prize, phase) {
                     count["4"] += 1;
                     break;
                 case 5:
-                    totalWinMoney += 50000;
+                    totalWinMoney += 70000;
                     count["5"] += 1;
                     break;
                 default:
