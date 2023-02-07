@@ -15,7 +15,7 @@ export default function (nickname) {
 
     <div style="display: flex;width: 100%;height: 270px">
         <div style="width: 60%;">
-            <button id="displayDoBet">下注</button>
+            /*<button id="displayDoBet">下注</button>*/
             <button id="displaySelectBet">查詢已下注號碼</button>
             <button id="displaySelectPrize">查詢中獎號碼</button>
             <button id="displayAutomaticRedemption">自動兌獎</button>
