@@ -8,7 +8,7 @@ export default function (data) {
     let result = new Set();
     let repeat = false;
     num.forEach(item => {
-        if (!result.has(item) && (item <= 20) && (item > 0)) {
+        if (!result.has(item) && (item <= 22) && (item > 0)) {
             result.add(item)
         } else {
             repeat = true
