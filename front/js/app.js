@@ -20,6 +20,7 @@ export default function (nickname) {
             <button id="displaySelectPrize">查詢中獎號碼</button>
             <button id="displayAutomaticRedemption">自動兌獎</button>
             <button id="displayDebt"> 查看未結帳金額 </button>
+            <button id="displayRule"> 玩法規則 </button>
             <div style="height:200%">
                 <div id="content"></div>
             </div>
@@ -49,6 +50,9 @@ export default function (nickname) {
 
     $("#displayDebt").click(displayDebt);
     // 顯示未結帳金額畫面
+
+    $("#displayRule").click(displayRule);
+    // 顯示玩法規則畫面
 
 
     $("#logout").click(() => {
