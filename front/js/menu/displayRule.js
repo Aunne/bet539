@@ -1,5 +1,5 @@
 export default function () {
-    str = `
+    let str = `
         <img src="./img/bet539_rule.png">
     `;
 
