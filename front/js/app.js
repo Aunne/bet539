@@ -2,7 +2,8 @@ import displayDoBet from "./menu/displayDoBet.js";
 import displaySelectBet from "./menu/displaySelectBet.js";
 import displaySelectPrize from "./menu/displaySelectPrize.js";
 import displayAutomaticRedemption from "./menu/displayAutomaticRedemption.js";
-import displayDebt from "./menu/displayDebt.js"
+import displayDebt from "./menu/displayDebt.js";
+import displayRule from "./menu/displayRule.js";
 
 export default function (nickname) {
     const startPage = `
