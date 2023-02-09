@@ -13,7 +13,7 @@ export default function () {
             </br>
             </br>
             <h2 >
-                未結帳金額 : ${count * 10} W
+                未結帳金額 : ${count * 20} W
             </h2>
             `;
             $("#content").html(str)
