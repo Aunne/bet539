@@ -10,7 +10,7 @@ export default function () {
         遊戲ＩＤ&nbsp;
         <input type="text" id="nickname"><br/><br/>
         登入密碼&nbsp;
-        <input type="text" id="password"><br/><br/>
+        <input type="password" id="password"><br/><br/>
         <button id="doRegist">確定 </button>&nbsp;&nbsp;<button id="back">返回</button>
         </center>
     `;
