@@ -58,15 +58,15 @@ export default function (userNumber, prize, phase) {
         if (countOfPrizesWon >= 3) {
             switch (countOfPrizesWon) {
                 case 3:
-                    totalWinMoney += 50;
+                    totalWinMoney += 100;
                     count["3"] += 1;
                     break;
                 case 4:
-                    totalWinMoney += 1000;
+                    totalWinMoney += 2000;
                     count["4"] += 1;
                     break;
                 case 5:
-                    totalWinMoney += 70000;
+                    totalWinMoney += 100000;
                     count["5"] += 1;
                     break;
                 default:

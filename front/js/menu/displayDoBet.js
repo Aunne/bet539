@@ -10,7 +10,7 @@ export default function (nickname) {
         遊戲id
         <input type="text" id="gameID" value="${nickname}" disabled><br/><br/>
         期數&nbsp;&nbsp;&nbsp;
-        <input type="text" id="phase" value="4" disabled><br/>
+        <input type="text" id="phase" value="5" disabled><br/>
         <div id="betDisplay"></div>
     </div>
     `;
